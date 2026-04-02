@@ -21,7 +21,7 @@ function App() {
         </a>
 
         {/* Bouton pour afficher l'input */}
-        <button onClick={() => setShowInput(true)}>Afficher input</button>
+        <button onClick={() => setShowInput(true)}>Afficher input test</button>
 
         {/* L'input apparaît seulement si showInput est true */}
         {showInput && <input type="text" placeholder="Tapez ici..." />}
