@@ -26,7 +26,7 @@ function App() {
         </button>
 
         {/* L'input apparaît seulement si showInput est true */}
-        {showInput && <input type="text" placeholder="Tapez ici..." />}
+        {showInput && <input type="text" placeholder="Tapez ici lll ..." />}
       </header>
     </div>
   );
